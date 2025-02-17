@@ -1,0 +1,20 @@
+{
+  "name": "decentralizevoting",
+  "version": "1.0.0",
+  "description": "A decentralized voting system using Solidity and Hardhat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.20.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "chai": "^4.3.6",
+    "ethers": "^6.13.5"
+  }
+}
